@@ -1,0 +1,62 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap: 20px;
+    justify-content: center;
+    margin: 70px;
+   
+}
+
+
+#hello{
+    border: 1px solid rgb(162, 150, 150);
+    border-radius: 50px;
+    background: linear-gradient(to top,rgba(169, 115, 8, 0.757),yellow,rgb(211, 211, 98),orange);
+}
+.element1{
+    grid-column: 1\2;
+    grid-row: span 32;
+   
+    justify-content: center;
+    
+}
+.element1:hover{
+    transition: 1.2s;
+    transform: scale(1.1);
+}
+.element2{
+    grid-column: 2/3;
+    grid-row: span 32;
+    
+}
+.element2:hover{
+    transition: 1.2s;
+    transform: scale(1.1);}
+  
+.element3{
+    grid-column: 3/3;
+    grid-row: span 32;
+
+    
+}
+.element3:hover{
+    transition: 1.2s;
+    transform: scale(1.1);}
+h1{
+    text-align: center;
+    margin-top: -8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paragraph{
+    padding: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+body{
+    background-color: lightyellow;
+}
+.image{
+    border-radius: 100px;
+    margin-left:100px;
+    margin-top: 50px;
+}
